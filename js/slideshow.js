@@ -1,11 +1,11 @@
-// Création de l'objet
+// Création de l'objet 
 var slideshow = {
 
 	// Nombre de slide total
 	slides : 7,
-	currentSlide: 1,
+	currentSlide: 0,
 
-	// Initialisation
+	// Initialisation du diaporama
 	init: function () {
 
 	},
