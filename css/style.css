@@ -1,0 +1,45 @@
+body{
+  padding:0;
+  margin:0;
+  overflow:hidden;
+}
+// Slideshow
+#slideshow {
+  height:120px
+}
+#slideshow {
+  position:relative;
+  display:flex;
+  flex-flow: row nowrap;
+  justify-items: space-between;
+  width:800%;
+  transition: left 3s ease;
+}
+#slideshow .slideshow__slide{
+  flex: 1 0 auto;
+  height:120px;
+  text-align:center;
+  border:1px solid grey;
+  /*margin:5px;*/
+  border-radius: 7px;
+}
+.slideshow__nav {
+  top:50px;
+  position:absolute;
+  width:100vw;
+}
+.slideshow__btn{
+  position:absolute;
+  border:none;
+  background:transparent;
+  color:grey;
+  cursor:pointer;
+}
+.slideshow__btn--left{left:0;margin-left:5%;}
+.slideshow__btn--right{right:0;margin-right:5%;}
+
+// MAP 
+#map {
+height: 900px;
+width:100%;
+}
