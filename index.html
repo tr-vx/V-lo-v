@@ -4,9 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	<title>Vélov - Carte intéractive de location de vélo</title>
-	<link rel="stylesheet" href="css/style.css">
+
+	
+	<!-- CSS /Fontawesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+	<!-- CSS / MAPBOX -->
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+    <!-- MAIN  CSS -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -32,15 +39,15 @@
 	<!-- Map --> 
 	<div id="map"></div>
 	<!-- Info map -->
+	<div id="info"></div>
 	<!-- Infos Réservation -->
 	
 
 
 	<!--  script Jquery -->
 	<script src="js/jquery.js"></script>
-	<!--  Google Maps API -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuUdLhS5zIDM1cAg9C3t6fsRlKucSJccM&callback=map.init"
-    async defer></script>
+ 	<!-- Mapbox API // Alternative to GMAPS -->
+ 	<!-- <script src='https://api.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script> -->
 	<!--  script Requetes Ajax -->
 	<script src="js/ajax.js"></script>
 	<!--  script Slideshow -->

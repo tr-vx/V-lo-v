@@ -16,7 +16,8 @@ req.addEventListener("load", function () {
 
 req.addEventListener("error", function () {
     // La requête n'a pas réussi à atteindre le serveur
-    console.error("Erreur réseau");
+    console.error("Erreur réseau (" + req.status + ")");
 });
 
 req.send(null);
+
